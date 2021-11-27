@@ -1,0 +1,40 @@
+{
+   "token": "Bot Token",
+
+   "prefix": "?",
+   "ownerIDS": [
+      "442355791412854784"
+   ],
+   "status": {
+      "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Support: discord.gg/milrato",
+      "type": "PLAYING",
+      "url": "https://twitch.tv/#"
+   },
+   "clientsettings": {
+      "nodes": [
+         {
+            "host": "localhost",
+            "port": 2333,
+            "password": "youshallnotpass"
+         }
+      ]
+   },
+
+   "spotify": {
+      "clientID": "",
+      "clientSecret": ""
+   },
+
+   
+   "settings": {
+      "COMMENT": "time_delay 0 === insta leave",
+      "leaveOnEmpty_Channel": {
+         "enabled": true,
+         "time_delay": 60000
+      },
+      "LeaveOnEmpty_Queue": {
+         "enabled": true,
+         "time_delay": 60000
+      }
+   }
+}
